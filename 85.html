@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="84.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body id="body1">
+
+    <div class="backgroundd"></div>
+
+    <header class="header_Of1">
+        <img id="mainPGJ_Robert" src="https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-en.svg" alt="Wikipedia">
+        <nav class="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="84.html">News</a>
+            <a href="prob.html">Sources</a>
+            <a href="85.html">About</a>
+        </nav>
+
+        <div id="progressContainer">
+                <div id="progressBar"></div>
+            </div>
+
+
+            <form action="search.html" method="get" class="search-form">
+                <div id="suggestions"></div>
+                <label for="search">Search:</label>
+                <input type="text" id="search" name="q">
+                <ul id="itemList">
+                    <li>Robert Redford</li>
+                    <li>Charles</li>
+                    <li>Fonda</li>
+                    <li>Sydney Pollack</li>
+                    <li>Proposal</li>
+                    <li>Lipton</li>
+                    <li>Schlosser</li>
+                </ul>
+            </form>
+
+        <button id="signIn">Sign in</button>
+
+        <div>
+            <button id="themeBtn" class="btn theme-toggle" aria-pressed="false">
+                <span id="themeIcon" class="theme-icon">🌞</span>
+                <span id="themeLabel">Light</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="main_Of1">
+        <div class="container">
+            <div class="text-container">
+                <h1>What is Wikipedia?</h1>
+                <p class="parag">
+                    <strong>Wikipedia</strong> is the world’s largest free encyclopedia – an open-source platform created by contributors around the globe. This version of the site was developed as a student project to learn and demonstrate how a web platform similar to Wikipedia can be built using modern web technologies.
+                </p>
+
+                <h2>Our Purpose</h2>
+                <p class="parag">
+                    Unlike traditional static encyclopedias, Wikipedia is open, editable, and highly interactive. This student-made project reflects that spirit by integrating custom layouts, dynamic content, and hands-on JavaScript features to simulate real-world web development.
+                </p>
+
+                <h2>Technology We Used</h2>
+                <ul>
+                    <li><strong>JavaScript</strong> – dynamic interactions</li>
+                    <li><strong>DOM Manipulation</strong> – to update content live</li>
+                    <li><strong>jQuery Effects</strong> – for UI animation and toggles</li>
+                    <li><strong>Local & Session Storage</strong> – to save user preferences and data</li>
+                </ul>
+
+                <h2>Inspired by Wikipedia</h2>
+                <p class="parag">
+                    The goal was not to copy, but to learn from the design principles that make Wikipedia effective:
+                </p>
+                <ul>
+                    <li>Clean, accessible layout</li>
+                    <li>Easy-to-read typography</li>
+                    <li>Content-focused article design</li>
+                    <li>Interactive tools for users</li>
+                </ul>
+
+                <h2>Website Sections</h2>
+                <p class="parag">This educational version of Wikipedia contains:</p>
+                <ul>
+                    <li><strong>Home</strong> – Welcome and introductory information</li>
+                    <li><strong>News</strong> – Live and updated articles on world events</li>
+                    <li><strong>Sources</strong> – Links to data references used across the site</li>
+                    <li><strong>About</strong> – Project overview (this page)</li>
+                </ul>
+
+                <p class="parag">
+                    <em>This page is part of a learning experience designed to explore how interactive, user-centered websites – like Wikipedia – are built from scratch.</em>
+                </p>
+            </div>
+
+            <div class="image-container">
+                <img id="mainWiki" src="https://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png" alt="About Wiki">
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer_Of1">
+        <h2>FrontX</h2>
+    </footer>
+
+    <script src="84.js"></script>
+</body>
+</html>

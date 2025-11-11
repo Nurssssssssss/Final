@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sources - Wikipedia</title>
+  <link rel="stylesheet" href="prob.css">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body id="body1">
+
+  <div class="backgroundd"></div>
+
+  <header class="header_main">
+    <a href="index.html"><img id="mainPGJ_Paul" src="https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-en.svg" alt="Wikipedia"></a>
+    
+    <nav class="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="84.html">News</a>
+      <a href="#">Sources</a>
+      <a href="85.html">About</a>
+    </nav>
+
+    <div id="progressContainer">
+        <div id="progressBar"></div>
+    </div>
+
+    <form action="search.html" method="get" class="search-form">
+                <div id="suggestions"></div>
+                <label for="search">Search:</label>
+                <input type="text" id="search" name="q">
+                <ul id="itemList">
+                    <li>Robert Redford</li>
+                    <li>Charles</li>
+                    <li>Fonda</li>
+                    <li>Sydney Pollack</li>
+                    <li>Proposal</li>
+                    <li>Lipton</li>
+                    <li>Schlosser</li>
+                </ul>
+            </form>
+
+    <button id="signIn">Sign In</button>
+
+    <div>
+      <button id="themeBtn" class="btn theme-toggle">
+        <span id="themeIcon">🌞</span>
+        <span id="themeLabel">Light</span>
+      </button>
+    </div>
+  </header>
+
+  <div class="container">
+    <!-- Левая часть -->
+    <main class="main_Of1">
+      <!-- Главные события -->
+      <section class="block">
+        <h2>Sources</h2>
+        <ul>
+          <li>War in the Middle East</li>
+          <li>russia's invasion of Ukraine (September)</li>
+          <li><a href="prob2.html">Paul Newman</a></li>
+          <li>world championships (wrestling · volleyball · athletics)</li>
+        </ul>
+
+        <h4>Isaac Bonga</h4>
+        <div class="player" id="isaac">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/2023-08-09_Deutschland_gegen_Kanada_%28Basketball-L%C3%A4nderspiel%29_by_Sandro_Halank%E2%80%93069.jpg/120px-2023-08-09_Deutschland_gegen_Kanada_%28Basketball-L%C3%A4nderspiel%29_by_Sandro_Halank%E2%80%93069.jpg" alt="Исаак Бонга">
+          <ul>
+            <li>At the Emmy Awards ceremony, "Pitt Hospital" was named Best Drama Series, "Film Studio" was named Best Comedy Series, and "Transition Age" was named Best Miniseries.</li>
+            <li>The German men's basketball team became European champions for the second time in history (MVP of the final — Isaac Bonga).</li>
+            <li>Former Brazilian President Jair Bolsonaro has been sentenced to 27 years in prison for conspiracy.</li>
+            <li>American activist Charlie Kirk killed during speech.</li>
+            <li>19 Russian drones invaded Polish airspace; NATO aircraft were deployed for the first time to intercept them.</li>
+            <li>Israel launched an airstrike on the Hamas headquarters in Doha.</li>
+          </ul>
+        </div>
+
+        <h3>Recently deceased</h3>
+        <ul>
+          <li>Robert Redford</li>
+          <li>Eddie Jacomin</li>
+          <li>Ricky Hatton</li>
+          <li>Andrey Chemerkin</li>
+          <li>Nicky Ryan</li>
+          <li>Polly Holliday</li>
+        </ul>
+      </section>
+
+      <!-- Последние события -->
+      <section class="block">
+        <h2>Recent events</h2>
+        <p>Anyone can add or edit an entry! Please cite a reliable source.</p>
+
+        <h3>September 14</h3>
+        <ul>
+          <li><strong>Sport</strong>: Germany won gold at the European Basketball Championship (88-83 against Turkey). Isaac Bonga was named MVP of the final.</li>
+        </ul>
+
+        <h3>September 13</h3>
+        <ul>
+          <li>Mass anti-immigration protests took place in London (100,000 participants).</li>
+        </ul>
+
+        <h3>September 12</h3>
+        <ul>
+          <li><strong>Disasters</strong>: Two people died when a cable car broke on Mount Elbrus.</li>
+        </ul>
+
+        <h3>September 11</h3>
+        <ul>
+          <li><strong>International relations</strong>: The Belarusian authorities released 52 political prisoners, and the US lifted sanctions on Belavia.</li>
+          <li><strong>Crimes</strong>: Jair Bolsonaro sentenced to 27 years in prison for plotting a coup.</li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- Правая часть -->
+    <aside class="sidebar-right">
+      <section class="block">
+        <h3>Search</h3>
+        <form>
+          <input type="text" placeholder="Enter your query">
+          <button type="submit">Search</button>
+        </form>
+      </section>
+
+      <section class="block">
+        <h3>Now:</h3>
+        <p>Time: <span id="currentTime">--:--</span></p>
+        <p>Date: <span id="currentDate">--/--/----</span></p>
+        <table class="calendar">
+          <tr>
+            <th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th>
+          </tr>
+          <tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr>
+          <tr><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td></tr>
+          <tr><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td></tr>
+        </table>
+      </section>
+
+      <section class="block nav">
+        <h3>Other links</h3>
+        <ul>
+          <li><a href="prob2.html">Paul Newman</a></li>
+          <li><a href="Vikip_2.html">Robert Redford</a></li>
+        </ul>
+      </section>
+    </aside>
+  </div>
+
+
+  <!-- Модальное окно -->
+  <div class="overlay" id="signInForm">
+    <div class="popup">
+      <button class="close-btn" id="closeForm">X</button>
+      <h2>Fill the form!</h2>
+      <form id="loginForm">
+        <input id="nameUser" type="text" placeholder="Name" required><br><br>
+        <input id="emailUser" type="email" placeholder="Email" required><br><br>
+        <input id="passUser" type="password" placeholder="Password" required><br><br>
+        <input id="passUserConf" type="password" placeholder="Confirm Password" required><br><br>
+        <button type="submit">Enter</button>
+      </form>
+      <p id="result" style="font-weight:bold; margin-top:10px;"></p>
+    </div>
+  </div>
+
+  <footer class="footer_Of1">
+    <section class="wiki-stats">
+    <h2>FrontX</h2>
+      <div class="stats-container">
+          <div class="stat">
+          <span class="count" data-target="6500000">0</span>
+          <p>Articles</p>
+          </div>
+          <div class="stat">
+          <span class="count" data-target="300000000">0</span>
+          <p>Registered Users</p>
+          </div>
+          <div class="stat">
+          <span class="count" data-target="10000000">0</span>
+          <p>Active Editors</p>
+          </div>
+      </div>
+    </section>
+  </footer>
+
+  <div id="toastContainer"></div>
+
+
+  <script src="prob.js"></script>
+</body>
+</html>

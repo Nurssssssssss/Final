@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="stylesheet" href="84.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body id="body1">
+
+    <div class="backgroundd"></div>
+
+    <header class="header_Of1">
+        <img id="mainPGJ_Robert" src="https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-en.svg" alt="Wikipedia">
+        <nav class="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="#">News</a>
+            <a href="prob.html">Sources</a>
+            <a href="85.html">About</a>
+        </nav>
+
+        <div id="progressContainer">
+                <div id="progressBar"></div>
+            </div>
+
+
+            <form action="search.html" method="get" class="search-form">
+                <div id="suggestions"></div>
+                <label for="search">Search:</label>
+                <input type="text" id="search" name="q">
+                <ul id="itemList">
+                    <li>Robert Redford</li>
+                    <li>Charles</li>
+                    <li>Fonda</li>
+                    <li>Sydney Pollack</li>
+                    <li>Proposal</li>
+                    <li>Lipton</li>
+                    <li>Schlosser</li>
+                </ul>
+            </form>
+
+        <button id="signIn">Sign in</button>
+
+        <div>
+            <button id="themeBtn" class="btn theme-toggle" aria-pressed="false">
+                <span id="themeIcon" class="theme-icon">🌞</span>
+                <span id="themeLabel">Light</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="main_Of1">
+        <div class="container">
+            <div class="image-container">
+                <img id="mainWiki" src="https://avatars.mds.yandex.net/i?id=2bd927918b9f03c42e7133017d9ddfef_l-6220307-images-thumbs&n=13" alt="News">
+            </div>
+            <div class="text-container">
+                <h1 id="head">Latest News from Around the World</h1>
+                <p class="parag" id="mainParagraph">
+                    Welcome to Wikipedia's Global News Hub, the ultimate destination for staying informed about the most crucial events shaping our world. In today’s fast-paced era, where every second brings new stories, breakthroughs, conflicts, and achievements, our mission is to be your reliable guide through this ocean of information.
+                    Here, you will find a carefully curated selection of news reports and in-depth stories from all continents — ranging from political transformations in global powerhouses to the quiet but significant social changes happening in remote communities. Whether it’s high-stakes negotiations among world leaders, groundbreaking scientific discoveries, or cultural phenomena that redefine art and expression, our editorial team works tirelessly to highlight the stories that matter most.
+
+                    Each headline has been selected to reflect not only a moment in time but also the underlying trends shaping the future — from climate change and technological evolution to shifts in public opinion and global justice.
+                </p>
+                <button id="readMoreBtn">Read More</button>
+            </div>
+        </div>
+        <div class="text-with-photos">
+    <div class="text-side">
+        <h2>Major Infrastructure Development Boosts Kazakhstan’s Economy</h2>
+        <p>
+            Kazakhstan has launched a series of new infrastructure projects aimed at improving transport connectivity and boosting regional development. 
+            The government announced that more than 2,000 kilometers of new roads will be built by 2026, linking key industrial zones and rural regions to major cities.
+        </p>
+
+        <p>
+            According to the Ministry of Industry and Infrastructure Development, the projects will not only create thousands of jobs but also attract foreign investments into the logistics and construction sectors. 
+            The “Kazakhstan 2030” initiative focuses on strengthening domestic production and creating sustainable supply chains across Central Asia.
+        </p>
+
+        <p>
+            Local experts highlight that this development could turn Kazakhstan into a strategic transit hub between China and Europe. 
+            New highways, rail networks, and digital logistics systems are expected to reduce transportation time by nearly 40%. 
+            “This is a turning point for the country’s economy,” said economist Aidos Serikbayev.
+        </p>
+
+        <p>
+            The government also emphasized the importance of eco-friendly construction methods. 
+            Solar-powered lighting systems and smart traffic management technologies will be used on all major routes. 
+            Officials expect these innovations to reduce carbon emissions by up to 15% annually.
+        </p>
+
+        <p>
+            The first phase of construction has already begun in Almaty and Turkistan regions, with completion expected by late 2025. 
+            Once finished, the network will connect over 100 towns and industrial centers, significantly improving trade and tourism opportunities.The government has emphasized the integration of smart technologies into the new transport corridors, including real-time traffic monitoring systems, automated toll collection, and predictive maintenance for critical infrastructure. These innovations aim to reduce travel times, enhance safety, and lower operational costs for both private and commercial vehicles.
+        </p>
+    </div>
+
+    <div class="photos-side">
+        <img src="https://avatars.mds.yandex.net/i?id=2730abc03ed2b7058c26c4e9b1fad4ec_l-12428376-images-thumbs&n=13" alt="Kazakhstan Highway">
+        <img src="https://avatars.mds.yandex.net/get-altay/1194602/2a00000166679b412db2da43a2af15ee7d19/orig" alt="Kazakhstan Train Station">
+        <img src="https://www.pixelstalk.net/wp-content/uploads/2025/08/Astana-Skyline-Evening-View-Kazakhstan-Wallpaper-1.jpeg" alt="Astana Skyline">
+    </div>
+</div>
+
+<section class="news-dashboard">
+    <h1 class="news-title">Latest Highlights</h1>
+
+    <div class="category-tabs">
+        <button class="tab active" data-category="world">🌍 World</button>
+        <button class="tab" data-category="entertainment">🎬 Entertainment</button>
+        <button class="tab" data-category="tech">💻 Technology</button>
+    </div>
+
+    <div class="news-cards">
+        <div class="news-group active" id="world">
+            <article class="news-card">
+                <img src="https://avatars.mds.yandex.net/i?id=95744361b32259b8a09fb696cb24d6c3_l-7947652-images-thumbs&n=13" alt="UN Summit">
+                <div class="card-content">
+                    <h2>World leaders sign historic climate accord</h2>
+                    <p>After weeks of discussion, 120 countries agreed on a landmark deal to reduce global emissions by 2040.</p>
+                </div>
+            </article>
+
+            <article class="news-card">
+                <img src="https://cdn.mos.cms.futurecdn.net/gDvoWAA3wJJksPMbt8Q6zR-1920-80.jpg" alt="Renewable energy">
+                <div class="card-content">
+                    <h2>Breakthrough in renewable energy</h2>
+                    <p>Scientists announce new high-efficiency turbines that could redefine power generation globally.</p>
+                </div>
+            </article>
+
+            <article class="news-card">
+                <img src="https://i.ytimg.com/vi/ynWwIKdjcVI/maxresdefault.jpg" alt="Space mission">
+                <div class="card-content">
+                    <h2>Space coalition formed for 2030 mission</h2>
+                    <p>Several nations plan a unified exploration effort to establish a research base on the Moon.</p>
+                </div>
+            </article>
+        </div>
+
+        <div class="news-group" id="entertainment">
+            <article class="news-card">
+                <img src="https://s.yimg.com/ny/api/res/1.2/olM_FZ01gJqVP268P5Aeog--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD04Mjk7Y2Y9d2VicA--/https://media.zenfs.com/en-US/homerun/vibe_128/b49ce2db6d5752bbdd9e90076c7a828e" alt="Movie">
+                <div class="card-content">
+                    <h2>New film breaks global box office record</h2>
+                    <p>The latest sci-fi epic became the highest-grossing film in history within just two weeks.</p>
+                </div>
+            </article>
+
+            <article class="news-card">
+                <img src="https://cdn.filestackcontent.com/compress/output=format:jpg/cache=expiry:max/resize=width:1600/DsifSiIeTG2vO8s6usRC" alt="Concert">
+                <div class="card-content">
+                    <h2>Legendary artist announces farewell tour</h2>
+                    <p>Fans around the world celebrate as the iconic musician begins his final series of concerts.</p>
+                </div>
+            </article>
+        </div>
+
+        <div class="news-group" id="tech">
+            <article class="news-card">
+                <img src="https://avatars.mds.yandex.net/i?id=857f4fd1559506c27b85af2cd08c7348_l-8176266-images-thumbs&n=13" alt="AI">
+                <div class="card-content">
+                    <h2>AI revolution transforms global industries</h2>
+                    <p>From healthcare to finance, AI-driven innovation is changing how businesses operate.</p>
+                </div>
+            </article>
+
+            <article class="news-card">
+                <img src="https://i.ytimg.com/vi/r6UQuz5tVV0/maxresdefault.jpg" alt="Cybersecurity">
+                <div class="card-content">
+                    <h2>New cybersecurity treaty signed</h2>
+                    <p>World governments agree on new frameworks to defend against rising digital threats.</p>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+
+        <h1>News Highlights</h1>
+        
+        <input type="text" id="searchCards" placeholder="Search news titles..." style="width: 100%; padding: 10px; margin-bottom: 20px;">
+
+        <div class="cards-container" id="cardsContainer">
+            <div class="card">
+                <img data-src="https://metro.co.uk/wp-content/uploads/2024/04/83557249-0-image-a-92_1712931967426_1712933149.jpg?quality=90&strip=all&w=1200&h=630&crop=1" class="lazyImg" alt="Card News">
+                <div class="card-content">
+                    <h3>BBC Global Headlines</h3>
+                    <p>Live coverage and in-depth reporting from around the globe.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img data-src="https://i.ytimg.com/vi/-WSnTwOnjvk/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGHIgRChKMA8=&rs=AOn4CLDwNEvqR_KFViGYT1_02mJ6bTORnQ" class="lazyImg" alt="Card News">
+                <div class="card-content">
+                    <h3>CNN Breaking News</h3>
+                    <p>Stay tuned for all major updates in real time.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img data-src="https://mma.prnewswire.com/media/822036/Reuters_Logo.jpg?p=facebook" class="lazyImg" alt="Card News">
+                <div class="card-content">
+                    <h3>Reuters Insights</h3>
+                    <p>Neutral and data-backed news — trusted worldwide.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer_Of1">
+ъ            <h2>FrontX</h2>
+    </footer>
+     <script src="84.js"></script>
+</body>
+</html>
